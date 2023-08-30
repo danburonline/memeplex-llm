@@ -1,8 +1,14 @@
 # Memeplex LLM
 
+![Flowise screenshot](/docs/img/flowise-screenshot.png)
+
 ## Introduction
 
 This is the accompanying code for an upcoming paper that I'm writing. More information coming soon.
+
+## Exemplary Flowise flows
+
+I've included some exemplary Flowise flows in the `flows` folder. You can import them via the Flowise UI.
 
 ## Setup Chroma vector database
 
