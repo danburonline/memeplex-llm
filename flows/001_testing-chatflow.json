@@ -1,0 +1,89 @@
+{
+  "nodes": [
+    {
+      "width": 300,
+      "height": 628,
+      "id": "autoGPT_0",
+      "position": { "x": 604, "y": 223 },
+      "type": "customNode",
+      "data": {
+        "id": "autoGPT_0",
+        "label": "AutoGPT",
+        "version": 1,
+        "name": "autoGPT",
+        "type": "AutoGPT",
+        "baseClasses": ["AutoGPT"],
+        "category": "Agents",
+        "description": "Autonomous agent with chain of thoughts for self-guided task completion",
+        "inputParams": [
+          {
+            "label": "AutoGPT Name",
+            "name": "aiName",
+            "type": "string",
+            "placeholder": "Tom",
+            "optional": true,
+            "id": "autoGPT_0-input-aiName-string"
+          },
+          {
+            "label": "AutoGPT Role",
+            "name": "aiRole",
+            "type": "string",
+            "placeholder": "Assistant",
+            "optional": true,
+            "id": "autoGPT_0-input-aiRole-string"
+          },
+          {
+            "label": "Maximum Loop",
+            "name": "maxLoop",
+            "type": "number",
+            "default": 5,
+            "optional": true,
+            "id": "autoGPT_0-input-maxLoop-number"
+          }
+        ],
+        "inputAnchors": [
+          {
+            "label": "Allowed Tools",
+            "name": "tools",
+            "type": "Tool",
+            "list": true,
+            "id": "autoGPT_0-input-tools-Tool"
+          },
+          {
+            "label": "Chat Model",
+            "name": "model",
+            "type": "BaseChatModel",
+            "id": "autoGPT_0-input-model-BaseChatModel"
+          },
+          {
+            "label": "Vector Store Retriever",
+            "name": "vectorStoreRetriever",
+            "type": "BaseRetriever",
+            "id": "autoGPT_0-input-vectorStoreRetriever-BaseRetriever"
+          }
+        ],
+        "inputs": {
+          "tools": "",
+          "model": "",
+          "vectorStoreRetriever": "",
+          "aiName": "",
+          "aiRole": "",
+          "maxLoop": 5
+        },
+        "outputAnchors": [
+          {
+            "id": "autoGPT_0-output-autoGPT-AutoGPT",
+            "name": "autoGPT",
+            "label": "AutoGPT",
+            "type": "AutoGPT"
+          }
+        ],
+        "outputs": {},
+        "selected": false
+      },
+      "positionAbsolute": { "x": 604, "y": 223 },
+      "selected": false
+    }
+  ],
+  "edges": []
+}

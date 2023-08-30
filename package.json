@@ -1,8 +1,11 @@
 {
   "dependencies": {
-    "flowise": "1.3.4"
+    "flowise": "1.3.2"
   },
   "scripts": {
-    "dev": "pnpm flowise start"
+    "dev": "flowise start"
+  },
+  "volta": {
+    "node": "18.17.1"
   }
 }
