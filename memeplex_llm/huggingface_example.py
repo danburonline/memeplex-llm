@@ -19,6 +19,7 @@ llm = HuggingFaceTextGenInference(
 
 print(
     llm(
-        "Can you write a short introduction about the relevance of the term monopsony in economics?"
+        """Can you write a short introduction about the relevance
+        of the term monopsony in economics?"""
     )
 )
