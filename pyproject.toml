@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "memeplex-llm"
+version = "0.0.1"
+description = ""
+authors = ["Daniel Burger <public@danielburger.online>"]
+readme = "README.md"
+packages = [{include = "memeplex_llm"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
